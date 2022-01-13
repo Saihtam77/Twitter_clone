@@ -1,0 +1,83 @@
+main{
+
+    width: 100%;
+    border: 0.5px solid;
+}
+
+    #user_tweets_box{
+
+        display: flex;
+
+        padding: 10px;
+
+        width: 100%;
+
+        border-bottom: solid 0.5px ;
+    }
+        .tweets_edit_box{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            height: 20vh;
+        }
+
+            .texte_box{
+
+                width: 100%;
+                height: 80%;
+
+                margin-bottom: 5px;
+            }
+                .texte_box input{
+                    width: 100%;
+                    height: 100%;
+                }
+
+            .icon_box{
+
+                display: flex;
+        
+                width: 100%;
+                height: 20%;
+
+            }  
+
+                .icon_item_box{
+                    display: flex;
+                    justify-content: space-around;
+                    width: 80%;
+                }
+                    .icon_item_box div{
+                        width: 8%;
+
+                    }
+
+                        .icon_item_box div img{
+                            width: 100%;
+                        }
+
+                .tweets_btn{
+                    
+                    display: flex;
+                    flex-direction: column;
+
+                    align-items: center;
+                    justify-content: center;
+
+                    width: 20%;
+                    background-color: cornflowerblue;
+                }
+
+                .tweets_btn a{
+                    text-decoration: none;
+                    color: white;
+                }
+
+
+
+                
+
+
+
+
+
